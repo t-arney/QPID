@@ -1,0 +1,82 @@
+// visualise at https://dbdiagram.io/d
+
+Table studies {
+  citekey character [pk]
+  title character
+  lead_author character
+  other_authors character
+  year int
+  doi character
+  journal character
+  book character
+}
+
+Table sites {
+  site_name character [pk]
+  lat decimal
+  lon decimal
+  water_depth decimal
+  ocean_basin ocean_basin
+}
+
+Table samples {
+  site_name character
+  depth_in_core decimal
+  age decimal
+  taxon_id character
+  citekey character
+  data_url character
+  d18o decimal
+  d13c decimal
+
+  // composite primary key
+  indexes {
+    (site_name, age, taxon_id) [pk]
+    }
+}
+
+Table taxa {
+  taxon_id character [pk]
+  grouping character
+  genus character
+  species character
+  type character
+  habitat habitat
+  original_name character
+}
+
+Table env {
+  site_name character [pk]
+  chl_a_modern decimal
+}
+
+// possible codes for ocean basins
+Enum ocean_basin {
+  NEAt // Northeast Atlantic Ocean
+  Med  // Mediterranean Sea
+  NWAt // Northwest Atlantic Ocean
+  TAt  // Tropical Atlantic Ocean
+  SAt  // South Atlantic Ocean
+  NEPa // Northeast Pacific Ocean
+  NWPa // Northwest Pacific Ocean
+  TPa  // Tropical Pacific Ocean
+  SPa  // South Pacific Ocean
+  EIn  // Eastern Indian Ocean
+  WIn  // Western Indian Ocean
+  ESo  // Eastern Southern Ocean
+  WSo  // Western Southern Ocean
+  Ar   // Arctic Ocean
+}
+
+
+// habitat is either benthic or planktonic
+Enum habitat {
+  Bn // benthic
+  Pl // planktic
+}
+
+
+Ref: samples.citekey > studies.citekey
+Ref: samples.site_name > sites.site_name
+Ref: taxa.taxon_id < samples.taxon_id
+Ref: env.site_name - sites.site_name

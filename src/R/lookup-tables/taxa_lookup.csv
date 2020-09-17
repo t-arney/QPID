@@ -1,0 +1,114 @@
+raw_name,taxon_id
+benthic,benthic
+Bolivina spp.,Bolivina
+Bulimina spp.,Bulimina
+C. bradyii,H_bradyi
+C. cicatricosus,C_cictrcss
+C. corpulentus,P_corplnts
+C. kullenbergi,C_kullnbrg
+C. pachyderma,C_pachydrm
+C. teretis,C_teretis
+C. wuellerstorfi,C_wllrstrf
+C. wuellerstorif,C_wllrstrf
+Cib spp.,Cibicidods
+Cib. spp.,Cibicidods
+E. Exigua,E_exigua
+Ehrenbergina spp.,Ehrenbergn
+G. bulloides,G_bulloids
+G. bulloides (B),G_bulloids
+G. bulloides (C),G_bulloids
+G. dutertrei (B),N_dutertre
+G. fistulosus,H_fistulss
+G. inflata,G_inflata
+G. inflata (C),G_inflata
+G. menardii (rings),G_menardii_r
+G. pseudoampliapertura,T_amplprtr
+G. ruber,G_ruber
+G. ruber (pink),G_ruber_p
+G. ruber (white),G_ruber_w
+G. sacculifer,T_sacculfr
+G. sacculifer (A),T_sacculfr
+G. sacculifer (B),T_sacculfr
+G. sacculifer (C),T_sacculfr
+G. tumida,G_tumida
+G. umbilicata,G_umbilict
+Genus mix: C. wuellerstorfi and Nutt. spp.,mx_Cwuell_Nutt
+Genus mix: Cib. spp. and M. barleanum,mx_Cib_Maff
+Genus mix: N. pachyderma (left) and G. bulloides,mx_Npachy_Gbull
+Genus mix: N. pachyderma and N. dutertrei,mx_Npachy_Ndut
+Genus mix: Nutt. and Cib. spp.,mx_Nutt_Cib
+Globocas. spp.,Globcssdln
+Gyroidina spp.,Gyroidina
+H. elegans,H_elegans
+M. barleanum,M_affinis
+N. pachyderma,N_pachydrm
+N. pachyderma (sinistralis),N_pachydrm_s
+N. pachyderma (strong freshwater influence),N_pachydrm_f
+N. umbonifera,N_umbonifr
+N. Umbonifera,N_umbonifr
+Nutt. spp.,Nuttallids
+O. tener,O_tenerus
+Orid. spp.,Oridorsals
+P. ariminensis,P_arimnnss
+P. foveolata,P_foveolat
+P. obliquiloculata,P_oblqlclt
+P. robertsoniensis,P_rbrtsnns
+P. wuellerstorfi,C_wllrstrf
+planktonic,planktic
+Planulina spp,Planulina
+Pulleniatina spp.,Pulleniatn
+Pyrgo murrhina,P_murrhina
+Pyrgo spp.,Pyrgo
+U. excellens,U_excellns
+U. hollicki,U_hollicki
+U. peregrina,U_peregrin
+U. senticosa,U_senticos
+Uvig spp.,Uvigerina
+Uvig. spp.,Uvigerina
+B. marginata [Bn],B_marginat
+C. kullenbergi [Bn],C_kullnbrg
+C. lobatulus [Bn],C_lobatuls
+C. mabahethi [Bn],C_mabaheth
+C. mckannai [Bn],C_mckannai
+C. mundulus [Bn],C_mundulus
+C. pachyderma [Bn],C_pachydrm
+C. pseudoungeriana [Bn],C_psedngrn
+C. teretis [Bn],C_teretis
+C. wuellerstorfi [Bn],C_wllrstrf
+Cibicides sp [Bn],Cibicides
+Cibicidoides sp [Bn],Cibicidods
+Cibicidoides spp [Bn],Cibicidods
+E. batialis [Bn],E_batialis
+E. clavatum [Bn],E_clavatum
+E. exigua [Bn],E_exigua
+G. bulloides [Pl],G_bulloids
+G. crassaformis [Pl],G_crssfrms
+g. inflata [Pl],G_inflata
+G. inflata [Pl],G_inflata
+G. menardii [Pl],G_menardii
+G. ruber [Pl],G_ruber
+G. ruber pink [Pl],G_ruber_p
+G. ruber white [Pl],G_ruber_w
+G. sacculifer [Pl],T_sacculfr
+G. scitula [Pl],G_scitula
+G. truncatulinoides [Pl],G_trnctlnd
+H. elegans [Bn],H_elegans
+M. zaandami [Bn],M_zaandami
+mixed [Bn],benthic
+N. dutertrei [Pl],N_dutertre
+N. incompta [Pl],N_incompta
+N. pachyderma (left) [Pl],N_pachydrm_s
+N. pachyderma [Pl],N_pachydrm
+P. ariminensis [Bn],P_arimnnss
+P. obliquiloculata [Pl],P_oblqlclt
+T. quinqueloba [Pl],T_quinqulb
+U. akita [Bn],U_akitanss
+U. auberiana [Bn],U_auberian
+U. costata [Bn],U_costata
+U. hispida [Bn],U_hispida
+U. mediterranea [Bn],U_meditrrn
+U. peregrina [Bn],U_peregrin
+U. senticosa [Bn],U_senticos
+unknown [Bn],benthic
+Uvigerina sp [Bn],Uvigerina
+Uvigerina spp [Bn],Uvigerina
